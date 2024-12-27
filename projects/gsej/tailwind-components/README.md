@@ -13,7 +13,7 @@ Run `ng build tailwind-components` to build the project. The build artifacts wil
 
 ## Publishing
 
-After building your library with `ng build tailwind-components`, go to the dist folder `cd dist/tailwind-components` and run `npm publish`.
+After building your library with `ng build tailwind-components`, go to the dist folder `cd dist/tailwind-components` and run `npm publish --access=public`.
 
 ## Running unit tests
 

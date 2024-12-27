@@ -1,6 +1,7 @@
 {
   "name": "@gsej/tailwind-components",
-  "version": "0.0.1",
+  "version": "0.0.5",
+  "private": false,
   "peerDependencies": {
     "@angular/common": "^18.2.0",
     "@angular/core": "^18.2.0"
