@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build @gsej/tailwind-components",
+    "pack": "npm pack dist/gsej/tailwind-components --pack-destination ~/repos/output/packages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
