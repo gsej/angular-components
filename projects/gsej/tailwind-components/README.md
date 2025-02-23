@@ -1,24 +1,23 @@
-# TailwindComponents
+# angular-components
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+## To build:
 
-## Code scaffolding
+```
+npm install
+npm run build
+```
 
-Run `ng generate component component-name --project tailwind-components` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project tailwind-components`.
-> Note: Don't forget to add `--project tailwind-components` or else it will be added to the default project in your `angular.json` file. 
+## To package for local testing:
 
-## Build
+```
+npm run pack
+```
 
-Run `ng build tailwind-components` to build the project. The build artifacts will be stored in the `dist/` directory.
+Output is put in the folder ~/repos/output/packages
 
-## Publishing
+## To publish to npm:
 
-After building your library with `ng build tailwind-components`, go to the dist folder `cd dist/tailwind-components` and run `npm publish --access=public`.
-
-## Running unit tests
-
-Run `ng test tailwind-components` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```
+cd dist/tailwind-components
+npm run publish --access=public
+```

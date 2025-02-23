@@ -23,11 +23,9 @@ export class ButtonComponent implements OnInit{
   @Input()
   click: () => void = () => { };
 
-
   ngOnInit(): void {
     if (this.variant === 'secondary') {
       this.presetClasses = this.secondary;
     }
   }
-
 }
